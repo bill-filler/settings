@@ -1,0 +1,62 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "projectManager.git.baseFolders": [
+        "/home/bfiller/projects"
+    ],
+    "projectManager.groupList": true,
+    "projectManager.showProjectNameInStatusBar": true,
+    "projectManager.treeview.visible": true,  
+    "projectManager.sortList": "Recent",
+    "search.followSymlinks": false,
+    "window.enableMenuBarMnemonics": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.editor.labelFormat": "small",
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.*": false,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": { "when": "$(basename).py" },
+        "**/__pycache__": true
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/wagtail/",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/treebeard",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/django",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/django-extensions",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/rest_framework",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/waffle",
+        "/home/bfiller/virtualenvs/pubs/lib/python3.5/site-packages/django-filters",
+    ],
+    "python.pythonPath": "/home/bfiller/virtualenvs/pubs/bin/python",
+    "python.venvPath": "/home/bfiller/virtualenvs/pubs/",
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "/home/bfiller/virtualenvs/pubs/bin/pep8",
+    "python.linting.pep8Args": [
+        "--config=/home/bfiller/projects/ecommerce/.pep8"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/home/bfiller/virtualenvs/pubs/bin/autopep8",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile",
+        "/home/bfiller/projects/journals/pylintrc"
+    ],
+    "python.linting.pylintPath": "/home/bfiller/virtualenvs/pubs/bin/pylint",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "html.format.enable": false,
+    "gitProjectManager.baseProjectsFolders": [
+        "/home/bfiller/projects"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "extensions.ignoreRecommendations": false,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+}
